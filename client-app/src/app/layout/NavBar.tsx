@@ -1,9 +1,7 @@
-import React from "react";
 import { Button, Container, Menu } from "semantic-ui-react";
-import { observer } from "mobx-react-lite";
 import { NavLink } from "react-router-dom";
 
-export default observer(function NavBar() {    
+export default function NavBar() {    
 
     return (
         <Menu inverted fixed="top">
@@ -20,4 +18,4 @@ export default observer(function NavBar() {
             </Container>
         </Menu>
     )
-})
+}
